@@ -11,7 +11,6 @@ class Application
     else
       resp.write "Morning"
       # binding.pry
-
     end
 
     resp.finish
