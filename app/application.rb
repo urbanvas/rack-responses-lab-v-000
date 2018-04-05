@@ -7,9 +7,9 @@ class Application
     # binding.pry
     if time.hour >= 12
       # binding.pry
-      resp.write "Afternoon\n"
+      resp.write "Afternoon"
     else
-      resp.write "Morning\n"
+      resp.write "Morning"
       # binding.pry
 
     end
