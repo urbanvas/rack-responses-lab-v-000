@@ -5,12 +5,13 @@ class Application
 
     time = Time.new.hour
     # binding.pry
-    if time <= 12
+    if time >= 12
       # binding.pry
-      resp.write "Morning\n"
-    else
       resp.write "Afternoon\n"
+    else
+      resp.write "Morning\n"
       # binding.pry
+
     end
 
     resp.finish
